@@ -6,7 +6,11 @@
     <link rel="shortcut icon" href="/images/x.ico" type="image/x-icon" />
     <link href='//fonts.googleapis.com/css?family=Raleway:300,500,700' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <?php $t = $_GET ['t']; ?>
+    <?php
+        $t = $_GET ['t'];
+        $p = $t - 1;
+        $n = $t + 1;
+    ?>
 </head>
 <body>
     <header><h1>The thing!</h1></header>
@@ -28,16 +32,14 @@
             <p>I love you. &lt;3</p>
         <?php }; ?>
         </div>
-<!--
         <nav id="pnThings">
             <?php if ($t > 1) { ?>
-            <a href="thing.php?t=<?php $t-1; ?>">&#x25c0; Previous Thing</a> &nbsp; | &nbsp;
+            <a href="thing.php?t=<?php echo $p; ?>">&#x25c0; Previous Thing</a> &nbsp; | &nbsp;
             <?php }
             if ($t < 777) { ?>
-               <a href="thing.php?t=<?php $t+1; ?>"> &#x25b6; Next Thing</a>
+               <a href="thing.php?t=<?php echo $n; ?>"> &#x25b6; Next Thing</a>
             <?php } ?>
         </nav>
--->
     </section>
     <footer>
         <p>bo.y likes girl.</p>

@@ -81,6 +81,11 @@ p.finePrint {
 strike {
     color: red;
 }
+nav#pnThings {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #777;
+}
 footer {
     color: #777;
     font-size: 10px;
