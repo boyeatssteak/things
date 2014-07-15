@@ -10,10 +10,10 @@
   </head>
   <body>
     <header>
-      <h1>Things my girl. may want to know</h1>
+      <h1>Things my girl. may want&nbsp;to know</h1>
     </header>
     <section id="thingButtons">
-        <h3>Pick a thing</h3>
+        <h3 style="margin-top: 90px;">Pick a thing</h3>
         <nav id="allThings">
           <ul>
             <?php
