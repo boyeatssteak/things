@@ -13,7 +13,7 @@
     ?>
 </head>
 <body>
-    <header><h1>The thing!</h1></header>
+    <header><h1><a href="index.php"><span style="color: #777; position: relative; top: -1px;">&#x25c0;</span> The thing!</a></h1></header>
     <section>
         <?php echo "<h3>Thing " . $t . " is:</h3>"; ?>
         <div id="theThing">
