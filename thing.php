@@ -37,7 +37,7 @@
             <a href="thing.php?t=<?php echo $p; ?>">&#x25c0; Previous Thing</a> &nbsp; | &nbsp;
             <?php }
             if ($t < 777) { ?>
-               <a href="thing.php?t=<?php echo $n; ?>"> &#x25b6; Next Thing</a>
+               <a href="thing.php?t=<?php echo $n; ?>"> Next Thing &#x25b6;</a>
             <?php } ?>
         </nav>
     </section>
